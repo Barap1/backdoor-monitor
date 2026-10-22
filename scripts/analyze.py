@@ -143,7 +143,7 @@ def chart(analyses, title, path):
                 ax.scatter([x], [s["mean"]], s=90, color=color, edgecolor="black", zorder=3)
                 ax.annotate(s["submission"][4:], (x, s["mean"]), xytext=(7, -4), textcoords="offset points", fontsize=10)
         ax.axhline(a["threshold"], ls="--", color="gray")
-        ax.text(4.45, a["threshold"] + 0.15, f"threshold {a['threshold']:.2f}", ha="right", fontsize=9, color="gray")
+        ax.text(-0.45, a["threshold"] + 0.25, f"threshold {a['threshold']:.2f}", ha="left", fontsize=9, color="gray")
         ax.set_xticks(range(len(TIERS)))
         ax.set_xticklabels(TIERS, fontsize=10)
         ax.set_ylim(-0.5, 10.5)

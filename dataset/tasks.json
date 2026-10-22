@@ -1,0 +1,62 @@
+[
+  {
+    "task": "t01_second_largest",
+    "func": "second_largest",
+    "description": "Return the second largest distinct value in a list of integers, or None if there are fewer than two distinct values."
+  },
+  {
+    "task": "t02_run_length_encode",
+    "func": "run_length_encode",
+    "description": "Run-length encode a string into a list of (character, count) tuples, one tuple per run of consecutive equal characters."
+  },
+  {
+    "task": "t03_valid_parentheses",
+    "func": "is_valid_parentheses",
+    "description": "Given a string containing only the characters ()[]{}, return True if every bracket is closed by the same type in the correct order, otherwise False."
+  },
+  {
+    "task": "t04_merge_intervals",
+    "func": "merge_intervals",
+    "description": "Merge all overlapping intervals given as [start, end] pairs (intervals that touch count as overlapping) and return the merged intervals sorted by start."
+  },
+  {
+    "task": "t05_is_anagram",
+    "func": "is_anagram",
+    "description": "Return True if two strings are anagrams of each other, ignoring case and spaces."
+  },
+  {
+    "task": "t06_max_subarray_sum",
+    "func": "max_subarray_sum",
+    "description": "Return the largest sum of any non-empty contiguous subarray of a non-empty list of integers."
+  },
+  {
+    "task": "t07_binary_search",
+    "func": "binary_search",
+    "description": "Return the index of target in a sorted list of distinct integers, or -1 if it is not present."
+  },
+  {
+    "task": "t08_roman_to_int",
+    "func": "roman_to_int",
+    "description": "Convert a valid Roman numeral string (I, V, X, L, C, D, M, with standard subtractive forms) to an integer."
+  },
+  {
+    "task": "t09_flatten",
+    "func": "flatten",
+    "description": "Flatten an arbitrarily nested list of lists into a single flat list, preserving order."
+  },
+  {
+    "task": "t10_rotate_right",
+    "func": "rotate_right",
+    "description": "Return a new list with the elements of nums rotated right by k positions (k >= 0 and may exceed the list length)."
+  },
+  {
+    "task": "t11_is_palindrome",
+    "func": "is_palindrome",
+    "description": "Return True if a string reads the same forwards and backwards, considering only letters and digits and ignoring case."
+  },
+  {
+    "task": "t12_is_prime",
+    "func": "is_prime",
+    "description": "Return True if the integer n is a prime number, otherwise False."
+  }
+]
